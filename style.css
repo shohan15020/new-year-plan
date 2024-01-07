@@ -1,0 +1,267 @@
+/* basic style */
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.btn-primary,
+.btn-primary a {
+    color: #005FAC;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 5px;
+    background: #FFF;
+    padding: 20px 25px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+/*  */
+header {
+    height: 800px;
+    width: 100%;
+    background-image: url("../practice/images/banner/banner3.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.banner {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    text-align: right;
+    gap: 20px;
+}
+
+.banner-content {
+    padding: 210px 230px 160px 840px;
+
+}
+
+.banner-title {
+    color: #FFF;
+    text-align: right;
+    font-size: 65px;
+    font-weight: 700;
+}
+
+.banner-description {
+    color: #FFF;
+    text-align: right;
+    font-size: 16px;
+    font-weight: 400;
+    margin: 24px 0 32px;
+
+}
+
+/* main section */
+main {
+    max-width: 1600px;
+    margin: 200px auto;
+}
+
+.failure-container {
+    display: flex;
+    width: 100%;
+    height: 900px;
+}
+
+.failure-img {
+    height: 100%;
+    width: 60%;
+    background-image: url("../practice/images/person.png");
+    background-repeat: no-repeat;
+}
+
+.failure-text {
+    width: 40%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.failure-text h2 {
+    color: #151414;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.failure-text p {
+    color: #444343;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: left;
+    line-height: 26px;
+    /* 162.5% */
+}
+
+.failure-text h3 {
+    color: #444343;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    /* 162.5% */
+    text-align: left;
+}
+
+.failure-text h3 svg {
+    width: 20px;
+    height: 20px;
+    flex-shrink: 0;
+}
+
+/* plan section */
+.plan-container h2 {
+    text-align: center;
+    color: #151414;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.plan-section {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin: 50px 0px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+
+}
+
+/* part 3 start */
+.part-three {
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-div {
+    background-image: url("images/watch.png");
+    background-repeat: no-repeat;
+    width: 1400px;
+    height: 300px;
+    margin-left: 80px;
+}
+
+.img-div2 {
+    width: 100%;
+    height: 100%;
+    background-image: url("images/gradient1.png");
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+}
+
+.img-div2 button {
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+    width: 200px;
+    height: 60px;
+    border: none;
+    border-radius: 4px;
+    margin-top: 20px;
+    margin-left: 20px;
+
+}
+
+.img-div2 h2 {
+    color: #ffffff;
+    margin-left: 20px;
+    margin-top: 20px;
+
+}
+
+/* footer section */
+.footer-main {
+    height: 500px;
+    width: 100%;
+    background-color: #151414;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 120px;
+    
+}
+
+.footer-part-one * {
+    margin-bottom: 25px;
+}
+
+.footer-part-one {
+    margin-left:150px;
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    color: #ffffff;
+}
+
+.footer-part-one h2 {
+    color: #F8F8F8;
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.footer-part-one .icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.footer-part-two {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 10px;
+    gap: 10px;
+    color: #ffffff;
+}
+
+.footer-part-two h3 {
+    color: #FFF;
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+.footer-part-two input {
+    width: 200px;
+    height: 40px;
+    border: none;
+    border-radius: 4px;
+    padding: 5px 10px;
+}
+
+.footer-part-two>button {
+    color: #ffffff;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 700;
+    width: 150px;
+    height: 40px;
+    border: none;
+    border-radius: 8px;
+    background: #005FAC;
+    margin-top: -10px;
+}
